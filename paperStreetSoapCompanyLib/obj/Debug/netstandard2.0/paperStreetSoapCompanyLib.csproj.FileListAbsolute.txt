@@ -1,0 +1,8 @@
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyLib/bin/Debug/netstandard2.0/paperStreetSoapCompanyLib.deps.json
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyLib/bin/Debug/netstandard2.0/paperStreetSoapCompanyLib.dll
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyLib/bin/Debug/netstandard2.0/paperStreetSoapCompanyLib.pdb
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyLib/obj/Debug/netstandard2.0/paperStreetSoapCompanyLib.csprojAssemblyReference.cache
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyLib/obj/Debug/netstandard2.0/paperStreetSoapCompanyLib.AssemblyInfoInputs.cache
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyLib/obj/Debug/netstandard2.0/paperStreetSoapCompanyLib.AssemblyInfo.cs
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyLib/obj/Debug/netstandard2.0/paperStreetSoapCompanyLib.dll
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyLib/obj/Debug/netstandard2.0/paperStreetSoapCompanyLib.pdb
