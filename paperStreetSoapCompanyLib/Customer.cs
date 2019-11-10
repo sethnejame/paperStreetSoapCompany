@@ -4,6 +4,8 @@ namespace paperStreetSoapCompanyLib
 {
   public class Customer
   {
+		public int CustomerId { get; private set; }
+		public string Email { get; set; }
 		public string FirstName { get; set; }
     private string _lastName;
 		public string LastName
@@ -15,6 +17,13 @@ namespace paperStreetSoapCompanyLib
 			set
 			{
 				_lastName = value;
+			}
+		}
+		public string FullName
+		{
+			get
+			{
+				return LastName + "," + FirstName;
 			}
 		}
 
