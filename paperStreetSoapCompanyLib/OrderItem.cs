@@ -13,19 +13,19 @@ namespace paperStreetSoapCompanyLib
 		{
 			OrderItemId = orderItemId;
 		}
-    public string Product { get; set; }
+    public int ProductId { get; set; }
     public int OrderItemId { get; private set; }
 
     public int Quantity { get; set; }
-    public int PurchasePrice { get; set; }
+    public decimal? PurchasePrice { get; set; }
 
     public bool Validate()
 		{
 			var isValid = true;
 
-			if (string.IsNullOrWhiteSpace(Product)) isValid = false;
-			if (Quantity < 0) isValid = false;
-			if (PurchasePrice < 0) isValid = false;
+			if (Quantity <= 0) isValid = false;
+			if (ProductId <= 0) isValid = false;
+			if (PurchasePrice == null) isValid = false;
 
 
 			return isValid;
