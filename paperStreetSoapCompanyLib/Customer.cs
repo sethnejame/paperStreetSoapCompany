@@ -46,6 +46,16 @@ namespace paperStreetSoapCompanyLib
 			return isValid;
 		}
 
+		public bool Save()
+		{
+			return true;
+		}
+
+		public Customer Retrieve(int customerId)
+		{
+			return new Customer();
+		}
+
 		public static int InstanceCount { get; set; }
 
   }
