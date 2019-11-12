@@ -15,7 +15,7 @@ namespace paperStreetSoapCompanyLib.Tests
 			};
 			string expected = "NeJame, Charlie";
 
-			string actual = "customer.FullName";
+			string actual = customer.FullName;
 
 			Assert.AreEqual(expected, actual);
     }
