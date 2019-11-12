@@ -42,7 +42,7 @@ namespace paperStreetSoapCompanyLib
 			var isValid = true;
 
 			if (string.IsNullOrWhiteSpace(LastName)) isValid = false;
-			if (string.IsNullOrWhiteSpace(FirstName)) isValid = false;
+			if (string.IsNullOrWhiteSpace(Email)) isValid = false;
 
 			return isValid;
 		}

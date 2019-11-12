@@ -1,3 +1,0 @@
-/home/seth/Dropbox/Coding/paperStreetSoapCompany/Tests/paperStreetSoapCompanyTest/obj/Debug/netcoreapp3.0/paperStreetSoapCompanyTest.csprojAssemblyReference.cache
-/home/seth/Dropbox/Coding/paperStreetSoapCompany/Tests/paperStreetSoapCompanyTest/obj/Debug/netcoreapp3.0/paperStreetSoapCompanyTest.AssemblyInfoInputs.cache
-/home/seth/Dropbox/Coding/paperStreetSoapCompany/Tests/paperStreetSoapCompanyTest/obj/Debug/netcoreapp3.0/paperStreetSoapCompanyTest.AssemblyInfo.cs
