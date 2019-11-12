@@ -13,19 +13,19 @@ namespace paperStreetSoapCompanyLib
 		{
 			ProductId = productId;
 		}
-    public string Name { get; set; }
-    public string Description { get; set; }
+    public string ProductName { get; set; }
+    public string ProductDescription { get; set; }
 
-    public int CurrentPrice { get; set; }
+    public decimal? CurrentPrice { get; set; }
     public int ProductId { get; private set; }
 
     public bool Validate()
 		{
 			var isValid = true;
 
-			if (string.IsNullOrWhiteSpace(Description)) isValid = false;
-			if (string.IsNullOrWhiteSpace(Name)) isValid = false;
-			if (CurrentPrice < 0) isValid = false;
+			if (string.IsNullOrWhiteSpace(ProductDescription)) isValid = false;
+			if (string.IsNullOrWhiteSpace(ProductName)) isValid = false;
+			if (CurrentPrice == null) isValid = false;
 
 			return isValid;
 		}
@@ -35,7 +35,7 @@ namespace paperStreetSoapCompanyLib
 			return true;
 		}
 
-		public Product Retrieve(string ProductName)
+		public Product Retrieve(string ProductId)
 		{
 			return new Product();
 		}
