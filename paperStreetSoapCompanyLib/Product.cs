@@ -7,12 +7,17 @@ namespace paperStreetSoapCompanyLib
   {
 		public Product()
 		{
-			
+
+		}
+		public Product(int productId)
+		{
+			ProductId = productId;
 		}
     public string Name { get; set; }
     public string Description { get; set; }
 
     public int CurrentPrice { get; set; }
+    public int ProductId { get; private set; }
 
     public bool Validate()
 		{
