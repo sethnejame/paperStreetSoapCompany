@@ -5,6 +5,15 @@ namespace paperStreetSoapCompanyLib
 {
   public class Customer
   {
+		public Customer()
+		{
+			
+		}
+		public Customer(int customerId)
+		{
+			CustomerId = customerId;
+		}
+
 		public int CustomerId { get; private set; }
 		public string Email { get; set; }
 		public string FirstName { get; set; }
