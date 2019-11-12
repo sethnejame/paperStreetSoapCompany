@@ -23,9 +23,30 @@ namespace paperStreetSoapCompanyLib
 		{
 			get
 			{
-				return LastName + "," + FirstName;
+				string fullName = LastName;
+				if (!string.IsNullOrWhiteSpace(FirstName))
+					{
+						if (!string.IsNullOrWhiteSpace(fullName))
+						{
+							fullName += ", ";
+						}
+						fullName += FirstName;
+					}
+				return fullName;
 			}
 		}
+
+		public bool Validate()
+		{
+			var isValid = true;
+
+			if (string.IsNullOrWhiteSpace(LastName)) isValid = false;
+			if (string.IsNullOrWhiteSpace(FirstName)) isValid = false;
+
+			return isValid;
+		}
+
+		public static int InstanceCount { get; set; }
 
   }
 }
