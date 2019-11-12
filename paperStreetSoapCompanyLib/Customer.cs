@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace paperStreetSoapCompanyLib
 {
@@ -54,6 +55,11 @@ namespace paperStreetSoapCompanyLib
 		public Customer Retrieve(int customerId)
 		{
 			return new Customer();
+		}
+
+		public List<Customer> Retrieve()
+		{
+			return new List<Customer>();
 		}
 
 		public static int InstanceCount { get; set; }
