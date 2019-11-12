@@ -63,5 +63,21 @@ namespace paperStreetSoapCompanyLib.Tests
 
       Assert.AreEqual(3, Customer.InstanceCount);
     }
+
+    [TestMethod]
+    public void ValidateValid()
+    {
+      var customer = new Customer
+      {
+        LastName = "NeJame",
+        Email = "spacecommander@gmail.com"
+      };
+
+      var expected = true;
+
+      var actual = customer.Validate();
+
+      Assert.AreEqual(expected, actual);
+    }
   }
 }
