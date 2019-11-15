@@ -7,7 +7,7 @@ namespace paperStreetSoapCompanyLib
   {
 		public Customer()
 		{
-			
+
 		}
 		public Customer(int customerId)
 		{
@@ -54,16 +54,6 @@ namespace paperStreetSoapCompanyLib
 			if (string.IsNullOrWhiteSpace(Email)) isValid = false;
 
 			return isValid;
-		}
-
-		public bool Save()
-		{
-			return true;
-		}
-
-		public Customer Retrieve(int customerId)
-		{
-			return new Customer();
 		}
 
 		public List<Customer> Retrieve()

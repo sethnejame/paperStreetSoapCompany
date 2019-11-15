@@ -13,6 +13,7 @@ namespace paperStreetSoapCompanyLib
 		{
 			OrderId = orderId;
 		}
+    public int OrderId { get; private set; }
     public DateTimeOffset? OrderDate { get; set; }
 
     public bool Validate()
@@ -34,8 +35,9 @@ namespace paperStreetSoapCompanyLib
 			return new Order();
 		}
 
-		public List<OrderItem> Retrieve()
+		public List<Order> Retrieve()
 		{
-			return new List<OrderItem>();
+			return new List<Order>();
 		}
   }
+}
