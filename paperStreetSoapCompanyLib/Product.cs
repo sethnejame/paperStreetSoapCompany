@@ -29,10 +29,5 @@ namespace paperStreetSoapCompanyLib
 
 			return isValid;
 		}
-
-		public List<Product> Retrieve()
-		{
-			return new List<Product>();
-		}
   }
 }

@@ -14,6 +14,7 @@ namespace paperStreetSoapCompanyLib
 			CustomerId = customerId;
 		}
 
+		public List<Address> AddressList { get; set; }
 		public int CustomerId { get; private set; }
 		public string Email { get; set; }
 		public string FirstName { get; set; }
@@ -54,11 +55,6 @@ namespace paperStreetSoapCompanyLib
 			if (string.IsNullOrWhiteSpace(Email)) isValid = false;
 
 			return isValid;
-		}
-
-		public List<Customer> Retrieve()
-		{
-			return new List<Customer>();
 		}
 
 		public static int InstanceCount { get; set; }

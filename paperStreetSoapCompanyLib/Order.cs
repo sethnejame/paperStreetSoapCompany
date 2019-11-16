@@ -24,10 +24,5 @@ namespace paperStreetSoapCompanyLib
 
 			return isValid;
 		}
-
-		public List<Order> Retrieve()
-		{
-			return new List<Order>();
-		}
   }
 }
