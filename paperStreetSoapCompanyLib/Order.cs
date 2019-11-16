@@ -25,16 +25,6 @@ namespace paperStreetSoapCompanyLib
 			return isValid;
 		}
 
-		public bool Save()
-		{
-			return true;
-		}
-
-		public Order Retrieve(int orderId)
-		{
-			return new Order();
-		}
-
 		public List<Order> Retrieve()
 		{
 			return new List<Order>();

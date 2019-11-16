@@ -30,16 +30,6 @@ namespace paperStreetSoapCompanyLib
 			return isValid;
 		}
 
-		public bool Save()
-		{
-			return true;
-		}
-
-		public Product Retrieve(string ProductId)
-		{
-			return new Product();
-		}
-
 		public List<Product> Retrieve()
 		{
 			return new List<Product>();
