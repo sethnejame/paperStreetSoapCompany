@@ -12,6 +12,7 @@ namespace paperStreetSoapCompanyLib
 		public Customer(int customerId)
 		{
 			CustomerId = customerId;
+			AddressList = new List<Address>();
 		}
 
 		public List<Address> AddressList { get; set; }
