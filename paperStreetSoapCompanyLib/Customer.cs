@@ -5,7 +5,7 @@ namespace paperStreetSoapCompanyLib
 {
   public class Customer
   {
-		public Customer()
+		public Customer(): this(0)
 		{
 
 		}
