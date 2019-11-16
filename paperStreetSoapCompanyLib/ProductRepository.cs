@@ -8,10 +8,10 @@ namespace paperStreetSoapCompanyLib
     {
       Product product = new Product(productId);
       {
-        if (productId == 1)
+        if (productId == 7)
         {
           product.ProductName = "Fancy Soap";
-          product.ProductDescription = "Made from the finest ingredients available.";
+          product.ProductDescription = "Made from the finest ingredients available";
           product.CurrentPrice = 99;
         }
         return product;
