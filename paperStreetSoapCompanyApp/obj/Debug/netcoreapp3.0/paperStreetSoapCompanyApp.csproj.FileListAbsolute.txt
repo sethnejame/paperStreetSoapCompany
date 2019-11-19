@@ -1,0 +1,11 @@
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyApp/bin/Debug/netcoreapp3.0/paperStreetSoapCompanyApp
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyApp/bin/Debug/netcoreapp3.0/paperStreetSoapCompanyApp.deps.json
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyApp/bin/Debug/netcoreapp3.0/paperStreetSoapCompanyApp.runtimeconfig.json
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyApp/bin/Debug/netcoreapp3.0/paperStreetSoapCompanyApp.runtimeconfig.dev.json
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyApp/bin/Debug/netcoreapp3.0/paperStreetSoapCompanyApp.dll
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyApp/bin/Debug/netcoreapp3.0/paperStreetSoapCompanyApp.pdb
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyApp/obj/Debug/netcoreapp3.0/paperStreetSoapCompanyApp.csprojAssemblyReference.cache
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyApp/obj/Debug/netcoreapp3.0/paperStreetSoapCompanyApp.AssemblyInfoInputs.cache
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyApp/obj/Debug/netcoreapp3.0/paperStreetSoapCompanyApp.AssemblyInfo.cs
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyApp/obj/Debug/netcoreapp3.0/paperStreetSoapCompanyApp.dll
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyApp/obj/Debug/netcoreapp3.0/paperStreetSoapCompanyApp.pdb
