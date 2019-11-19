@@ -19,6 +19,8 @@ namespace paperStreetSoapCompanyLib
     public decimal? CurrentPrice { get; set; }
     public int ProductId { get; private set; }
 
+		public override string ToString() => ProductName;
+
     public bool Validate()
 		{
 			var isValid = true;
