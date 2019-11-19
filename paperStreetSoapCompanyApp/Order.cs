@@ -21,6 +21,9 @@ namespace paperStreetSoapCompanyApp
     public List<OrderItem> OrderItems { get; set; }
     public int CustomerType { get; set; }
 
+    public override string ToString() =>
+          $"{OderDate.Value.Date} ({OrderID})";
+
     public bool Validate()
     {
       var isValid = true;

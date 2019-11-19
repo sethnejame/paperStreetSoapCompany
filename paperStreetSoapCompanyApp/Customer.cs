@@ -31,6 +31,8 @@ namespace paperStreetSoapCompanyApp
 				_lastName = value;
 			}
 		}
+
+		public override string ToString() => FullName;
 		public string FullName
 		{
 			get
