@@ -14,6 +14,9 @@ namespace paperStreetSoapCompanyLib
           product.ProductDescription = "Made from the finest ingredients available";
           product.CurrentPrice = 99;
         }
+        Object myObject = new Object();
+        Console.WriteLine($"Object: {myObject.ToString()}");
+        Console.WriteLine($"Product: {product.ToString()}");
         return product;
       }
     }
