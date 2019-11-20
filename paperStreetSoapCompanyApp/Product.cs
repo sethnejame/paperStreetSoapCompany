@@ -21,7 +21,7 @@ namespace paperStreetSoapCompanyApp
 
 		public override string ToString() => ProductName;
 
-    public bool Validate()
+    public override bool Validate()
 		{
 			var isValid = true;
 
