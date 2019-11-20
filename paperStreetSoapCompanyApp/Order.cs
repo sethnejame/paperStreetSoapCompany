@@ -22,7 +22,7 @@ namespace paperStreetSoapCompanyApp
     public int CustomerType { get; set; }
 
     public override string ToString() =>
-          $"{OderDate.Value.Date} ({OrderID})";
+          $"{OrderDate.Value.Date} ({OrderId})";
 
     public bool Validate()
     {
