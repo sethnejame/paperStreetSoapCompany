@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace paperStreetSoapCompanyApp
 {
-  public class Product
+  public class Product : EntityBase
   {
 		public Product()
 		{
