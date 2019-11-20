@@ -22,7 +22,7 @@ namespace paperStreetSoapCompanyApp.Tests
       Assert.AreEqual(expected.ProductDescription, actual.ProductDescription);
       Assert.AreEqual(expected.CurrentPrice, actual.CurrentPrice);
     }
-     [TestMethod]
+    [TestMethod]
     public void SaveTestValid()
     {
       var productRepo = new ProductRepository();
@@ -37,6 +37,22 @@ namespace paperStreetSoapCompanyApp.Tests
       var actual = productRepo.Save(updatedProduct);
 
       Assert.AreEqual(true, actual);
+    }
+    [TestMethod]
+    public void SaveTestMissingPrice()
+    {
+      var productRepo = new ProductRepository();
+      var updatedProduct = new Product(7)
+      {
+        ProductName = "Fancy Soap",
+        ProductDescription = "Made from the finest ingredients available",
+        CurrentPrice = null,
+        HasChanges = true
+      };
+
+      var actual = productRepo.Save(updatedProduct);
+
+      Assert.AreEqual(false, actual);
     }
   }
 }
