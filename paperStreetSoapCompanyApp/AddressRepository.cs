@@ -52,9 +52,29 @@ namespace paperStreetSoapCompanyApp
 
       return addressList;
     }
-    public bool Save(Address address)
+     public bool Save(Address address)
     {
-      return true;
+      var success = true;
+
+      if (address.HasChanges)
+      {
+        if (address.IsValid)
+        {
+          if (address.IsNew)
+          {
+
+          }
+          else
+          {
+
+          }
+        }
+        else
+        {
+          success = false;
+        }
+      }
+      return success;
     }
   }
 

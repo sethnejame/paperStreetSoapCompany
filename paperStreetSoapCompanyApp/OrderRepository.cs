@@ -14,9 +14,29 @@ namespace paperStreetSoapCompanyApp
       }
       return order;
     }
-    public bool Save(Order order)
+     public bool Save(Order order)
     {
-      return true;
+      var success = true;
+
+      if (order.HasChanges)
+      {
+        if (order.IsValid)
+        {
+          if (order.IsNew)
+          {
+
+          }
+          else
+          {
+
+          }
+        }
+        else
+        {
+          success = false;
+        }
+      }
+      return success;
     }
   }
 }
