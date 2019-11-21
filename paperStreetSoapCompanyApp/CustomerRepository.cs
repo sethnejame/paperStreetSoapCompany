@@ -27,7 +27,27 @@ namespace paperStreetSoapCompanyApp
 
     public bool Save(Customer customer)
     {
-      return true;
+      var success = true;
+
+      if (customer.HasChanges)
+      {
+        if (customer.IsValid)
+        {
+          if (customer.IsNew)
+          {
+
+          }
+          else
+          {
+
+          }
+        }
+        else
+        {
+          success = false;
+        }
+      }
+      return success;
     }
   }
 }

@@ -2,7 +2,7 @@ using System;
 
 namespace paperStreetSoapCompanyApp
 {
-  public class Address
+  public class Address : EntityBase
   {
     public Address()
     {
