@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Common
 {
-  public class StringHandler
+  public static class StringHandler
   {
     public string InsertSpaces(string source)
     {
@@ -15,6 +15,7 @@ namespace Common
         {
           if (char.IsUpper(letter))
           {
+            result = result.Trim();
             result += " ";
           }
           result += letter;

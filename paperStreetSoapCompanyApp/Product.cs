@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Common;
 
 namespace paperStreetSoapCompanyApp
 {
@@ -18,7 +19,8 @@ namespace paperStreetSoapCompanyApp
 		{
 			get
 			{
-				return _productName;
+				var stringHandler = new StringHandler();
+				return stringHandler.InsertSpaces(_productName);
 			}
 			set
 			{
