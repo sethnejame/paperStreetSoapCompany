@@ -20,7 +20,8 @@ namespace Common
           result += letter;
         }
       }
-      return result;
+
+      return result.TrimStart(" ");
     }
   }
 }
