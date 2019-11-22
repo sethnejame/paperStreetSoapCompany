@@ -11,7 +11,7 @@ namespace Common.Tests
             var source = "SonicScrewdriver";
             var expected = "Sonic Screwdriver";
 
-            var actual = StringHandler.InsertSpaces(source);
+            var actual = source.InsertSpaces();
 
             Assert.Equal(expected, actual);
         }
@@ -21,7 +21,7 @@ namespace Common.Tests
             var source = "Sonic Screwdriver";
             var expected = "Sonic Screwdriver";
 
-            var actual = StringHandler.InsertSpaces(source);
+            var actual = source.InsertSpaces();
 
             Assert.Equal(expected, actual);
         }
