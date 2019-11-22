@@ -1,0 +1,11 @@
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/Common/obj/Debug/netcoreapp3.0/Common.csprojAssemblyReference.cache
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/Common/obj/Debug/netcoreapp3.0/Common.AssemblyInfoInputs.cache
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/Common/obj/Debug/netcoreapp3.0/Common.AssemblyInfo.cs
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/Common/bin/Debug/netcoreapp3.0/Common
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/Common/bin/Debug/netcoreapp3.0/Common.deps.json
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/Common/bin/Debug/netcoreapp3.0/Common.runtimeconfig.json
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/Common/bin/Debug/netcoreapp3.0/Common.runtimeconfig.dev.json
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/Common/bin/Debug/netcoreapp3.0/Common.dll
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/Common/bin/Debug/netcoreapp3.0/Common.pdb
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/Common/obj/Debug/netcoreapp3.0/Common.dll
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/Common/obj/Debug/netcoreapp3.0/Common.pdb

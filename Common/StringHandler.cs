@@ -21,7 +21,7 @@ namespace Common
         }
       }
 
-      return result.TrimStart(" ");
+      return result.TrimStart();
     }
   }
 }
