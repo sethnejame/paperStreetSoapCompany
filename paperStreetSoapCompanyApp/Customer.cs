@@ -32,6 +32,9 @@ namespace paperStreetSoapCompanyApp
 			}
 		}
 
+		public string Log() =>
+			$"{CustomerId}: {FullName} Email: {Email} Status: {EntityState.ToString()}";
+
 		public override string ToString() => FullName;
 		public string FullName
 		{
