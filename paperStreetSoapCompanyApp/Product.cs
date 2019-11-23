@@ -31,6 +31,10 @@ namespace paperStreetSoapCompanyApp
     public decimal? CurrentPrice { get; set; }
     public int ProductId { get; private set; }
 
+		public string Log() =>
+			$"{ProductId}: {ProductName} Detail: {ProductDescription} Status: {EntityState.ToString()}";
+
+
 		public override string ToString() => ProductName;
 
     public override bool Validate()
