@@ -9,3 +9,7 @@
 /home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyApp/obj/Debug/netcoreapp3.0/paperStreetSoapCompanyApp.AssemblyInfo.cs
 /home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyApp/obj/Debug/netcoreapp3.0/paperStreetSoapCompanyApp.dll
 /home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyApp/obj/Debug/netcoreapp3.0/paperStreetSoapCompanyApp.pdb
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyApp/bin/Debug/netcoreapp3.0/Common
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyApp/bin/Debug/netcoreapp3.0/Common.dll
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyApp/bin/Debug/netcoreapp3.0/Common.pdb
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyApp/obj/Debug/netcoreapp3.0/paperStreetSoapCompanyApp.csproj.CopyComplete

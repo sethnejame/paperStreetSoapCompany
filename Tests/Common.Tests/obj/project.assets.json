@@ -1972,6 +1972,19 @@
         "runtime": {
           "bin/placeholder/Common.dll": {}
         }
+      },
+      "paperStreetSoapCompanyApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/paperStreetSoapCompanyApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/paperStreetSoapCompanyApp.dll": {}
+        }
       }
     }
   },
@@ -6584,6 +6597,11 @@
       "type": "project",
       "path": "../../Common/Common.csproj",
       "msbuildProject": "../../Common/Common.csproj"
+    },
+    "paperStreetSoapCompanyApp/1.0.0": {
+      "type": "project",
+      "path": "../../paperStreetSoapCompanyApp/paperStreetSoapCompanyApp.csproj",
+      "msbuildProject": "../../paperStreetSoapCompanyApp/paperStreetSoapCompanyApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6591,6 +6609,7 @@
       "Common >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.2.0",
       "coverlet.collector >= 1.0.1",
+      "paperStreetSoapCompanyApp >= 1.0.0",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"
     ]
@@ -6621,6 +6640,9 @@
           "projectReferences": {
             "/home/seth/Dropbox/Coding/paperStreetSoapCompany/Common/Common.csproj": {
               "projectPath": "/home/seth/Dropbox/Coding/paperStreetSoapCompany/Common/Common.csproj"
+            },
+            "/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyApp/paperStreetSoapCompanyApp.csproj": {
+              "projectPath": "/home/seth/Dropbox/Coding/paperStreetSoapCompany/paperStreetSoapCompanyApp/paperStreetSoapCompanyApp.csproj"
             }
           }
         }
