@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using Common;
 
 namespace paperStreetSoapCompanyApp
 {
-  public class Customer : EntityBase
+  public class Customer : EntityBase, ILoggable
   {
 		public Customer(): this(0)
 		{

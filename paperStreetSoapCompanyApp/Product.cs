@@ -4,7 +4,7 @@ using Common;
 
 namespace paperStreetSoapCompanyApp
 {
-  public class Product : EntityBase
+  public class Product : EntityBase, ILoggable
   {
 		public Product()
 		{
