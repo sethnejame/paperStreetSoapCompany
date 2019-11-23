@@ -24,7 +24,7 @@ namespace paperStreetSoapCompanyApp
     public override string ToString() =>
           $"{OrderDate.Value.Date} ({OrderId})";
 
-    public bool Validate()
+    public override bool Validate()
     {
       var isValid = true;
 

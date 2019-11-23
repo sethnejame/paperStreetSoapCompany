@@ -21,7 +21,7 @@ namespace paperStreetSoapCompanyApp
     public string PostalCode { get; set; }
     public int AddressType { get; set; }
 
-    public bool Validate()
+    public override bool Validate()
     {
       var isValid = true;
 
