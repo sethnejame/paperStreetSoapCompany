@@ -95,3 +95,6 @@
 /home/seth/Dropbox/Coding/paperStreetSoapCompany/Tests/Common.Tests/obj/Debug/netcoreapp3.0/Common.Tests.csproj.CopyComplete
 /home/seth/Dropbox/Coding/paperStreetSoapCompany/Tests/Common.Tests/obj/Debug/netcoreapp3.0/Common.Tests.dll
 /home/seth/Dropbox/Coding/paperStreetSoapCompany/Tests/Common.Tests/obj/Debug/netcoreapp3.0/Common.Tests.pdb
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/Tests/Common.Tests/bin/Debug/netcoreapp3.0/paperStreetSoapCompanyApp
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/Tests/Common.Tests/bin/Debug/netcoreapp3.0/paperStreetSoapCompanyApp.dll
+/home/seth/Dropbox/Coding/paperStreetSoapCompany/Tests/Common.Tests/bin/Debug/netcoreapp3.0/paperStreetSoapCompanyApp.pdb

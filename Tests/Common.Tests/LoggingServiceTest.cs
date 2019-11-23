@@ -1,6 +1,8 @@
 using System;
 using Xunit;
 using System.Collections.Generic;
+using Common;
+using paperStreetSoapCompanyApp;
 
 namespace Common.Tests
 {
@@ -9,7 +11,7 @@ namespace Common.Tests
         [Fact]
         public void WriteToFileTest()
         {
-           var changedItems = new LoggingServiceTest<ILoggable>();
+           var changedItems = new List<ILoggable>();
 
            var customer = new Customer(1)
            {
